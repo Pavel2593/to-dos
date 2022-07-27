@@ -1,0 +1,37 @@
+@use './../../assets/styles/_main/color' as *;
+
+.taskItem {
+    margin-bottom: 20px;
+    padding: 20px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: $boxShadow;
+    background-color: $white;
+
+    &Title {
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    &ChekcComplited {
+            padding: 14px 20px;
+            border: none;
+            border-radius: 6px;
+            font-family: 'Montserrat';
+            font-weight: bold;
+            font-size: 12px;
+            white-space: nowrap;
+            color: $white;
+            background-color: $green;
+    }
+
+    &Right {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    
+}
