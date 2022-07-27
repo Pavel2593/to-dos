@@ -21,7 +21,7 @@ const TaskItem: React.FunctionComponent<ITaskItemProps> = ({ removeTask, changeC
                 <h2>{task.id}) {task.title}</h2>
             </div>
             <div className='mb-40'>
-                {task.description}
+                <p>{task.description}</p>
             </div>
             <div className={cl.taskItemRight}>
                 <FloodedButton
